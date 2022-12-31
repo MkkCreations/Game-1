@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(69, 94, 69);
+}
+
+#canvas {
+    border-radius: 4px;
+    background-color: cadetblue;
+    clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+}
+
+#time {
+    width: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+#btn {
+    display: none;
+    top: 50%;
+    left: 50%;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 1em;
+    border: none;
+    background-color: cornflowerblue;
+}
