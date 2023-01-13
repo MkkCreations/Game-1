@@ -98,7 +98,7 @@ const update = () => {
 
 setInterval(() => {
     requestAnimationFrame(update);
-}, 2)
+}, 20)
 
 function timer() {
     timeInterval = setInterval(() => {
